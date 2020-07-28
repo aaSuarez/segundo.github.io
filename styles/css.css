@@ -1,0 +1,68 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    padding: 10px;
+    margin: 50px 50px;
+    display: flex;
+    border: 1px solid black;
+    
+}
+
+
+
+aside{
+    background-color: rgb(240, 235, 235);
+    width: 30%;
+    border-radius: 10%;
+   
+    
+}
+.perfil{
+    margin: 70px 35px;
+}
+.contacto{
+    margin: 70px 35px;
+}
+.aptitud{
+    margin: 70px 35px;
+}
+main{
+    margin-left: 3%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.nombre{
+    padding: 5%;
+    text-transform: uppercase;
+}
+
+
+
+
+
+.picture{
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
+h2{
+    text-transform: uppercase;
+    color:rgb(62, 87, 226);
+    text-decoration: underline;
+    font-size: 20px;
+    
+}
+@media(max-width:1200px){
+    .container{
+        border: none;
+        flex-direction: column;
+    }
+    aside{
+        width: 500px;
+    }
+    main{
+        width: 250px;
+    }
+}
